@@ -119,11 +119,56 @@ const Resume = () => {
                         <Typography variant="h5" align="center" className={classes.subHeading}>
                             Web Design
                         </Typography>
-                        <Typography variant="body1" align="center">
+                        <Typography variant="body1" align="center" style={{color:"tomato"}}>
                             Company where I worked
                         </Typography>
-                        <Typography variant="subtitle1" align="center">
-                            Lorem ipsum
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </Typography>
+                    </Box>
+                    
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2015
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            Web Design2
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato"}}>
+                            Company where I worked2
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </Typography>
+                    </Box>
+                    
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2016
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            Web Design3
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato"}}>
+                            Company where I worked23
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </Typography>
+                    </Box>
+
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2017
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            Web Design4
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato"}}>
+                            Company where I worked4
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Typography>
                     </Box>
                 </Box>
