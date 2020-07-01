@@ -26,6 +26,7 @@ import {
 import avatar from "../Images/avatar.png";
 import { makeStyles } from '@material-ui/core/styles';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
+import Footer from './Footer';
 
 // CSS styles
 
@@ -65,7 +66,7 @@ const menuItems = [
     {
         listIcon: <ContactMail />,
         listText: "Contacts",
-        listPath: "Contacts"
+        listPath: "/Contacts"
     },
 ]
 
@@ -111,6 +112,7 @@ const toggleSlider = ((slider, open) => () => {
                     </Typography>
                     <MobileRightMenuSlider anchor="right" open ={state.right} onClose={toggleSlider("right", false)}>
                         {sideList("right")}
+                        <Footer />
                     </MobileRightMenuSlider>
                 </Toolbar>
             </AppBar>
